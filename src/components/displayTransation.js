@@ -18,6 +18,7 @@ function DisplayTransaction(props){
                 </div>
 
                 <div>
+                    {data.transactionType == "Expense" ? <div className="expenseIndicator"></div>: <div className="incomeIndicator"></div>}
                     <h6>{data.transactionType}</h6>
                 </div>
             </div>
