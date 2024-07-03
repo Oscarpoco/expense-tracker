@@ -44,3 +44,18 @@ button
   margin-top: 4px;
   margin-left: 45px;
 }
+
+.list-items
+{
+  display: flex;
+  justify-content: space-between;
+  height: 45px;
+  width: 500px;
+  background-color: white;
+}
+
+.list-items h6
+{
+  padding-top: 20px;
+  padding-left: 20px;
+}

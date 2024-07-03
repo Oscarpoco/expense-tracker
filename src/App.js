@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="container">
 
-      <DisplayTransaction transactions = {transactions}/>
+      <DisplayTransaction transactions={transactions}/>
 
       <AddTransaction add={add}/>
     </div>

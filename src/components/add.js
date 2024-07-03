@@ -10,7 +10,7 @@ function AddTransaction(props){
     
     const add = (() => {
         props.add(transactionItem, amount, transactionType);
-    });;
+    });
 
     return (
         <div>
